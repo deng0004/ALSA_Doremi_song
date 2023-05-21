@@ -1,9 +1,10 @@
 # ALSA_Doremi_song
 
-sudo apt-get install libasound2-dev
 
- gcc doremi_fast.c -o doremi_fast -lasound -lm
- ./doremi_fast
+command to install ALSA library in linux environment: `sudo apt-get install libasound2-dev`
+
+command to run the code: `gcc doremi_fast.c -o doremi_fast -lasound -lm`
+command to install the code: `./doremi_fast`
  
  
  
