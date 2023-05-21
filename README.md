@@ -9,5 +9,9 @@ sudo apt-get install libasound2-dev
  
 
 
-https://github.com/deng0004/ALSA_Doremi_song/assets/118713625/076cc644-9dac-4dd9-973e-851c3346b0fc
+
+
+https://github.com/deng0004/ALSA_Doremi_song/assets/118713625/0b8c88f4-dcbc-4410-823a-db8b79f4edcd
+
+
 
