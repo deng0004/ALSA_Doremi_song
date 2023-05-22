@@ -3,7 +3,12 @@
 
 command to install ALSA library in linux environment: `sudo apt-get install libasound2-dev`
 
-command to compile using GCC (GNU Compiler Collection) with -o option specifies the output file name as 'doremi_fast', with -l option is used to specify a library that needs to be linked with the compiled code. In this case, it's '- lasound', which tells the : `gcc doremi_fast.c -o doremi_fast -lasound -lm`
+
+
+
+command to compile using GCC (GNU Compiler Collection): `gcc doremi_fast.c -o doremi_fast -lasound -lm`
+command to compile using GCC (GNU Compiler Collection) with -o option specifies the output file name as 'doremi_fast', with -l option is used to specify a library that needs to be linked with the compiled code. In this case, it's '- lasound', which tells the compiler to link against the ALSA library ('libasound'). ALSA is the Advanced Linux Sound Architecture, which provides an API for sound-related operations on Linux. 
+
 
 
 command for execute doremi_fast file in current directory: `./doremi_fast`
