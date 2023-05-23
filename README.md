@@ -1,4 +1,10 @@
-# ALSA_Doremi_song
+# A sound wave Generation of "Do-Re-Mi" melody (ALSA_Doremi_song).
+
+### In this example, the author generated a sine wave with a frequency of 440Hz with a duration of 5 seconds. The audio data is stored in a buffer and then it is written to the PCM device using `snd_pcm_writei`. 
+
+### Note that the code assumes a signed 16-bit little-endian format `(SND_PCM_FORMAT_S16_LE)`. You can modify the format and parameters based on your specific requirements. Additionally, make sure to adjust the PCM device name ("default" in this example) according to your system's configuration.
+
+# Below are instructions for installing library, compile and excute of the code.<br><br>
 
 
 command to install ALSA library in linux environment: `sudo apt-get install libasound2-dev` <br><br>
